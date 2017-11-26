@@ -324,7 +324,7 @@ public class JFrameWhatsapp extends javax.swing.JFrame implements Serializable {
     private void jRadioButtonVoceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonVoceActionPerformed
         // TODO add your handling code here:
         voceEnvia = true;
-        jLabelVistoPorUltimo.setText(data + "-" + hora);
+        jLabelVistoPorUltimo.setText("Visto por ultimo em: " + data + "-" + hora);
     }//GEN-LAST:event_jRadioButtonVoceActionPerformed
 
     private void jRadioButtonContatoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButtonContatoActionPerformed
